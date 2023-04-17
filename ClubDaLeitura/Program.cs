@@ -17,7 +17,7 @@ namespace ClubDaLeitura
             RepositorioCaixa repositorioCaixa = new RepositorioCaixa();
             RespositorioRevista respositorioRevista = new RespositorioRevista();
             RepositorioEmprestimo repositorioEmprestimo = new RepositorioEmprestimo();
-            respositorioRevista.repositorioCaixa = repositorioCaixa;
+            //respositorioRevista.repositorioCaixa = repositorioCaixa;
 
             TelaAmigo telaAmigo = new TelaAmigo();
             telaAmigo.repositorioAmigo = repositorioAmigo;

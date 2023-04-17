@@ -83,10 +83,10 @@ namespace ClubDaLeitura.ModuloRevista
         }
         private void AtualizaRevista()
         {
-            Console.WriteLine("Id para Editar: ");
-            int idParaEditar = Convert.ToInt32(Console.ReadLine());
-            Revista revista = PegaDadosDaRevista();
-            repositorioDeRevista.AtualizarRevistas(idParaEditar, revista);
+            //Console.WriteLine("Id para Editar: ");
+            //int idParaEditar = Convert.ToInt32(Console.ReadLine());
+            //Revista revista = PegaDadosDaRevista();
+            //repositorioDeRevista.AtualizarRevistas(idParaEditar, revista);
         }
         private void DeletaRevista()
         {
